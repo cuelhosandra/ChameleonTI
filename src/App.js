@@ -4,6 +4,7 @@ import './App.css';
 function App() {
   return (
     <div className="App">
+    <div className="image">
       <div className="main">
         <div className="center">
         <div className="menu">
@@ -29,6 +30,7 @@ function App() {
         </div>
         </div>
       </div>
+    </div>
     </div>
   );
 }
