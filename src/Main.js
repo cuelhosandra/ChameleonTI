@@ -2,7 +2,13 @@ import React, { useEffect, useState } from 'react';
 import Background1 from "./img/backgroundship2.png"
 import Background2 from "./img/backgroundship.png"
 import TextForm from './TextForm';
+import Form from './Form';
 
+function handleMenuClick(event, sectionId) {
+  event.preventDefault();
+  const sectionElement = document.getElementById(sectionId);
+  sectionElement.scrollIntoView({ behavior: 'smooth' });
+}
 /*BANNER ROTATIVO COM 2 IMAGENS*/
 const images = [
   Background1,
@@ -34,15 +40,14 @@ const Main = () => {
 {/* NAVBAR */}
 <div className="center"> 
         
-        <div className="menu">               
-            <div className="logo">
-          <h3>ChameleonTI</h3>
-            </div> 
-        <div className="item-menu" alt="testando">
+        <div className="menu">              
+            
+        <div className="item-menu">
         <ul>     
-            <li><a href='#'>INÍCIO</a></li>       
-            <li><a href='#'>SOBRE</a></li>
-            <li><a href='#'>CONTATO</a></li>           
+        <li><a href='#' onClick={(event) => handleMenuClick(event, 'chameleon')}>CHAMELEONTI</a></li>      
+        <li><a href='#' onClick={(event) => handleMenuClick(event, 'serviços')}>SERVIÇOS</a></li>
+        <li><a href='#' onClick={(event) => handleMenuClick(event, 'projetos')}>PROJETOS</a></li> 
+        <li><a href='#' onClick={(event) => handleMenuClick(event, 'contato')}>CONTATO</a></li>           
          </ul>
         </div>         
       </div>
@@ -51,22 +56,11 @@ const Main = () => {
      <TextForm/>
       </div>  
 </div>
-{/* FORMULÁRIO PRA CAPTAÇÃO DE LEADS */}
-<form>  
-  <div className="conteudo-form">    
-        <div class="header">  
-                <div>Chameleon<span>TI</span></div>         
-        </div>              
-      <div className="inputs">
-            <input type="text" placeholder="nome completo" name="nome" />
-            <input type="password" placeholder="e-mail" name="e-mail" />
-            <input type="button" value="Enviar" />
-      </div>      
-  </div>  
-</form>
+  <div className='formulario'>
+  <Form />
+  </div>
 
-</div>
-  
+  </div>
   );
 };
 
