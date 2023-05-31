@@ -2,7 +2,7 @@
 
 > Status: Em desenvolvimento ⚠️
 
-## Para acessar a versão atual da Landing Page, é só clicar aqui: https://cuelhosandra.github.io/ChameleonTI/
+## Acesse a versão atual da Landing Page: https://cuelhosandra.github.io/ChameleonTI/
 
 ### A Landing Page foi desenvolvida para apresentar os serviços e benefícios de uma empresa com especialidade em UX/UI, Desenvolvimento de APPS e Softwares.
 
