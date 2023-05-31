@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/ChameleonTI/static/css/main.79b07516.css",
+    "main.js": "/ChameleonTI/static/js/main.a04e6934.js",
+    "static/js/787.6606bfd5.chunk.js": "/ChameleonTI/static/js/787.6606bfd5.chunk.js",
+    "static/media/img3.jpg": "/ChameleonTI/static/media/img3.2e13f9ed1a5c9ebe590f.jpg",
+    "static/media/img1.jpg": "/ChameleonTI/static/media/img1.6af336ad66c2ccbf673d.jpg",
+    "static/media/img6.jpg": "/ChameleonTI/static/media/img6.7a31a887fc7cbc915eeb.jpg",
+    "static/media/background1.jpg": "/ChameleonTI/static/media/background1.a8b8d5e92dc638b221a1.jpg",
+    "static/media/img4.jpg": "/ChameleonTI/static/media/img4.19056bda06633a535f8e.jpg",
+    "static/media/img5.jpg": "/ChameleonTI/static/media/img5.8d3e7afb9d4a155e4cb6.jpg",
+    "static/media/background2.jpg": "/ChameleonTI/static/media/background2.8e01245b89fa494a296a.jpg",
+    "static/media/img2.jpg": "/ChameleonTI/static/media/img2.6402f2674b87b41fdded.jpg",
+    "static/media/chameleon.png": "/ChameleonTI/static/media/chameleon.ac6a3a732f39487bd6e6.png",
+    "index.html": "/ChameleonTI/index.html",
+    "main.79b07516.css.map": "/ChameleonTI/static/css/main.79b07516.css.map",
+    "main.a04e6934.js.map": "/ChameleonTI/static/js/main.a04e6934.js.map",
+    "787.6606bfd5.chunk.js.map": "/ChameleonTI/static/js/787.6606bfd5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.79b07516.css",
+    "static/js/main.a04e6934.js"
+  ]
+}
