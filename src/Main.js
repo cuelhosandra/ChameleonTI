@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import Background1 from "./img/backgroundship2.png"
-import Background2 from "./img/backgroundship.png"
+import Background1 from "./img/background1.jpg"
+import Background2 from "./img/background2.jpg"
 import TextForm from './TextForm';
 import Form from './Form';
 

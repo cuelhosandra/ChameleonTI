@@ -7,7 +7,7 @@ function Form() {
             </div>              
               <div className="inputs">  
               
-             <p className="textoInput">Para que uma equipe especialista faça contato com você, informe os dados abaixo</p>        
+             <p className="textoInput">Preencha os campos para que nossa equipe de especialistas faça contato com você</p>        
                 <input type="text" placeholder="nome completo" name="nome" />
                 <input type="password" placeholder="e-mail" name="e-mail" />
                 <input type="button" value="Enviar" />                
